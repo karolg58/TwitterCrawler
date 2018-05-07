@@ -9,10 +9,10 @@ def store_to_database(c, key, tweet):
     # Save (commit) the changes
     conn.commit()
  
-consumer_key = 'kQoBZkfm1B7wIdD3nRdht0k2x'
-consumer_secret = '0yozuFeGcU5cTkDa4nD9kO1BoBEaChU337il7qQ8NNhG5RJ4Pf'
-access_token = '993375396728012800-kNcHQdhFQVjjDW25ON38emToHWdMhF1'
-access_secret = '9KXgzZtzm36GTSPhXUNvZavKGijZ0djwMzrprC4jSHm07'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
  
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
