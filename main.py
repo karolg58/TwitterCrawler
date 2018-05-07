@@ -24,7 +24,7 @@ cur = conn.cursor()
 cur.execute("CREATE TABLE IF NOT EXISTS res(id INTEGER PRIMARY KEY AUTOINCREMENT, key VARCHAR(255), text VARCHAR(511), json JSON)")
 conn.commit()
 
-key = "#python"
+key = "web services"
 
 #c = tweepy.Cursor(api.home_timeline, include_entities=True).items()
 c = tweepy.Cursor(api.search, q = key, lang='en', include_entities=True).items()
